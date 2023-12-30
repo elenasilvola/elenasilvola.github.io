@@ -1,0 +1,531 @@
+#page1 {
+    margin: 0;
+    font-family: 'Questrial';
+    background-color: #3706D6;
+}
+
+#page2 {
+    background-color: #C7C5CD;
+    font-family: 'Questrial';
+    margin: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8vh;
+    margin-left: 5vw;
+
+}
+
+.navigation-links {
+    color:#FAFCFF;
+    text-decoration: none;
+    margin-top: 1em;
+}
+
+.gradient-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: linear-gradient(180deg, rgba(6, 0, 24, 0) 0%, #0B0322 16.7%);
+    mix-blend-mode: normal;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 350vh;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Name {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: 'Bebas Neue';
+    font-size: 2em;
+    letter-spacing: 0.12em;
+    color: #FAFCFF;
+    z-index: 1;
+    margin-top: -1em;
+    margin-left: 4.5vw;
+
+}
+
+.hero-img {
+    display: flex;
+    justify-content: flex-start;
+    width: 91.8%;
+    margin-top: 6em;
+    margin-left: 4.5vw;
+    margin-right: 4vw;
+    object-fit: cover;
+}
+
+h1 {
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    
+}
+
+h2 {
+    margin: 0;
+    
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: space-around;
+    color: #FAFCFF;
+}
+
+.navigation-line {
+    stroke: #FAFCFF;
+    fill: #FAFCFF;
+    width: 3em;
+    height: 3em;
+    
+}
+
+.logo {
+    position: fixed;
+    flex-direction: row-reverse;
+    width: 3em;
+    height: 3em;
+    margin-top: -.3em;
+    margin-right: 1em;
+    z-index: 100;
+    right: 0;
+}
+
+.projectline {
+    display: flex;
+    justify-content: start;
+    color: #FAFCFF;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 25vh;
+    height: 4em;
+    width: 4vw;
+}
+
+h3 {
+    color: #FAFCFF;
+    margin-top: 27vh;
+    font-size: 4vh;
+    letter-spacing: 0.15vw;
+}
+
+.Subheading {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Project-page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12vh;
+}
+
+
+.picture {
+    height: auto;
+    width: 45vw;
+    margin-left: 5.3vw;
+    z-index: 30;
+}
+
+.image-about {
+    height: auto;
+    width: 45vw;
+    margin-left: 5.3vw;
+    z-index: 30;
+}
+
+.content {
+    color: #FAFCFF;
+    text-decoration: none;
+    margin-left: 3vw;
+    margin-top: -6.5vh;
+}
+
+.project-info {
+    color: #FAFCFF;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    line-height: 3vh;
+    letter-spacing: 0.15vw;
+}
+
+.project-title {
+    margin-bottom: 15vh;
+    margin-top: 7vh;
+    margin-left: 2.5vw;
+    letter-spacing: 0.15vw;
+}
+
+.view {
+    position: absolute;
+    margin-left: 2.5vw;
+   
+}
+
+a {
+    color: #FAFCFF;
+}
+
+a:hover {
+    color: #230485;
+}
+
+.content-about {
+    color: #FAFCFF;
+    margin-top: 10vh;
+}
+
+.feature1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact-title {
+    display: flex;
+    justify-content: flex-start;
+    color: #FAFCFF;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    margin-left: 3vw;
+    font-size: 3vh;
+}
+    
+.purple-line {
+    height: 1vh;
+    width: 100%;
+    background-color: #230485;
+    position: absolute;
+    z-index: 20;
+    margin-top: 16vh;
+}
+
+.purple-line2 {
+    height: 1vh;
+    width: 100%;
+    background-color: #230485;
+    z-index: 20;
+    position: absolute;
+    z-index: 1;
+    margin-top: 16vh;
+}
+
+.dark-line {
+    height: 1vh;
+    width: 45vw;
+    background-color:#0B0322;
+    position: absolute;
+    z-index: 40;
+    margin-top: 16vh;
+    margin-left: 5.3vw;
+       
+}
+
+.dark-line2 {
+    height: 1vh;
+    width: 45vw;
+    background-color:#0B0322;
+    position: absolute;
+    z-index: 40;
+    margin-top: 16vh;
+    margin-left: 49.7vw;
+    margin-bottom: 1vh;
+}
+
+.feature2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #FAFCFF;
+    margin-right: 5.3vw;
+}
+
+.About-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 10vh;
+    margin-left: 5.3vw;
+}
+
+.about-info {
+    
+    color: #FAFCFF;
+    margin-right: 5.3vw;
+    margin-left: 5.3vw;
+    margin-top: 2vh;
+    text-align: right;
+    line-height: 3vh;
+    letter-spacing: 0.15vw;
+}
+
+.resume {
+    margin-bottom: 5vh;
+}
+
+.cvpic {
+    height: auto;
+    width: 40vw;
+}
+
+.container-purple {
+    background-color: #2A05A1;
+    height: 45vw;
+    width: 45vw;
+    z-index: 30;
+}
+
+.boksiboksi {
+    margin-left: 3vw;
+    margin-top: 4.5vh;
+}
+
+.some {
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 3px;
+}
+.instagram {
+    height: 3vh;
+    width: auto;
+    margin-right: 3vw;
+}
+.linkedin {
+    height: 3vh;
+    width: auto;
+    margin-right: 3vw;
+}
+
+.project-container {
+    height: 150vh;
+    width: 100vw;
+    background-color: #C7C5CD;
+    z-index: 10;
+    letter-spacing: 0.15vw;
+}
+.graphics {
+    z-index: 1;
+    position: absolute;
+}
+
+.image5 {
+    width: 100%;
+}
+
+.headline-box {
+    display: flex;
+    align-items: center;
+    background-color:#DCDAE2;
+    height: 6vh;
+    width: 100%;
+    z-index: 300;
+}
+.purple-line3 {
+    background-color: #2A05A1;
+    height: 1vh;
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+}
+.line {
+    background-color: #0B0322;
+    height: 6vh;
+    width: 0.4vw;
+    margin-left: 10vw;
+    margin-right: 3vw;
+}
+.nuoli:hover{
+    color: #3706D6;
+}
+.nuoli {
+    font-size: 5vh;
+    margin-top: 2vh;
+    margin-left: 4.5vw;
+    text-decoration: none;
+    color: #0B0322;
+    width: 10vw;
+    height: 5vh;
+    z-index: 100;
+}
+.puhelin {
+    margin-bottom: 8px;
+    margin-top: 4vh;
+}
+.project-description{
+    text-align: right;
+    line-height: 3vh;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.restofpage {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100vw;
+}
+.top-part {
+    display: flex;
+    flex-direction: column;
+}
+.email {
+    text-decoration: none;
+    margin-top: 3vh;
+}
+.email:hover {
+    color: #0B0322;
+}
+
+@media screen and (min-width: 600px) {
+    .project-info { 
+        font-size: 3vh;
+        line-height: 4vh;
+    }
+    .about-info { 
+        font-size: 3vh;
+        line-height: 4vh;
+    }
+    .view {
+        font-size: 3vh;
+    }
+    .project-title {
+        font-size: 4vh;
+    }
+    .purple-line {
+        margin-top: 19vh;
+    }
+    .dark-line{
+        margin-top: 19vh;
+    }
+    .resume {
+        font-size: 3vh;
+        margin-bottom: 12vh;
+    }
+    .Subheading{
+        margin-top: 30vh;
+    }
+    .Name {
+        font-size: 6vh;
+        letter-spacing: 1.5vh;
+        transform: translate(2%,-20%)
+    }
+    .logo {
+        width: 10vh;
+        height: 10vh;
+    }
+    .navigation-container {
+        font-size: 3vh;
+    }
+    .hero-img{
+        width: 40%;
+        margin-left: 30vw;
+        margin-top: 12vh;
+    }
+    .gradient-box{
+        height: 500vh;
+    }
+    .boksiboksi{
+        margin-top: 20px;
+        font-size: 3vh;
+        transform: translate(0%, 15%);
+    }
+    .purple-line2 {
+        margin-top: 20vh;
+    }
+    .dark-line2 {
+        margin-top: 20vh;
+    }
+    .some {
+        margin-top: 3vh;
+    }
+    .instagram {
+        width: 5vh;
+        height: 5vh;
+    }
+    .linkedin {
+        width: 5vh;
+        height: 5vh;
+    }
+    .image5 {
+        width: 100%;
+        height: 88vh;
+        object-fit: cover;
+        
+    }
+    .project-description{
+        font-size: 3vh;
+        line-height: 4vh;
+    }
+    .headline-box{
+        height: 8vh;
+        font-size: 3vh;
+    }
+    .line{
+        height: 8vh;
+    }
+    
+}
+
+@media screen and (min-width: 470px) {
+    
+    .contact-title {
+        font-size: 3vh;
+        margin-bottom: 8vh;
+        margin-top: 4vh;
+    }
+    .boksiboksi {
+        margin-top: 6vh;
+    }
+}
+@media screen and (min-width: 992px) {
+    .boksiboksi {
+        margin-top: 160px;
+        font-size: 4vh;
+    }
+    .contact-title {
+        font-size: 6vh;
+    }
+    .instagram {
+        width: 8vh;
+        height: 8vh;
+    }
+    .linkedin {
+        width: 8vh;
+        height: 8vh;
+    }
+    .Name {
+        font-size: 8vh;
+    }
+    .hero-img{
+        margin-top: 6vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
